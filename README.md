@@ -1,10 +1,10 @@
 # SpotifyUI
 
-## 1-Splash Screen
+## Splash Screen and Spotify Play Screen
 
-<img src="https://github.com/gulzade/SpotifyUI/blob/main/SpotifySplash.png" width="250"/>
+<img src="https://github.com/gulzade/SpotifyUI/blob/main/SpotifySplash.png" width="300"/> <img src="https://github.com/gulzade/SpotifyUI/blob/main/SpotifyPlay.png" width="300" >
 
 
-## 2-Spotify Play Screen
 
-<img src="https://github.com/gulzade/SpotifyUI/blob/main/SpotifyPlay.png" width="250" >
+
+
