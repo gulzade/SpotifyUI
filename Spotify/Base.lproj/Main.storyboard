@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sNr-jw-qr7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Spotify Playing Screen-->
+        <scene sceneID="B64-1P-vMB">
+            <objects>
+                <viewController id="sNr-jw-qr7" customClass="SpotifyPlayingScreen" customModule="Spotify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6sQ-qk-Ebz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="q5D-hc-Z8u">
+                                <rect key="frame" x="22" y="70" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="3JZ-5C-4ad"/>
+                                    <constraint firstAttribute="height" constant="20" id="TIW-VW-ywS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Properties" translatesAutoresizingMaskIntoConstraints="NO" id="gYY-I8-Pet">
+                                <rect key="frame" x="378" y="70" width="10" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Xe7-JB-5Vt"/>
+                                    <constraint firstAttribute="width" constant="10" id="g1d-mS-zSh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easy On Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5si-mV-clF">
+                                <rect key="frame" x="26" y="574" width="241" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="bl4-5r-jme"/>
+                                    <constraint firstAttribute="width" constant="241" id="lgA-d7-Lqc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="24"/>
+                                <color key="textColor" name="iconColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWJ-EG-W1R">
+                                <rect key="frame" x="26" y="610" width="134" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="134" id="kCQ-RX-gqX"/>
+                                    <constraint firstAttribute="height" constant="14" id="qBG-IK-y2W" userLabel="height = 12"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="20"/>
+                                <color key="textColor" name="singerTitleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconHeart" translatesAutoresizingMaskIntoConstraints="NO" id="xeW-I0-z0d">
+                                <rect key="frame" x="360" y="591" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="G0P-RS-yUI"/>
+                                    <constraint firstAttribute="width" constant="28" id="dLT-jq-knz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adel" translatesAutoresizingMaskIntoConstraints="NO" id="sSl-Ls-wLa">
+                                <rect key="frame" x="26" y="154" width="362" height="412"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="412" id="jSg-e5-yv7"/>
+                                    <constraint firstAttribute="width" constant="362" id="zDZ-ug-EF0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Timer" translatesAutoresizingMaskIntoConstraints="NO" id="O7o-yX-6xv">
+                                <rect key="frame" x="30" y="644" width="310" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="mvj-p1-fLd"/>
+                                    <constraint firstAttribute="width" constant="310" id="xiC-fS-sHX" userLabel="width = 342"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="233" translatesAutoresizingMaskIntoConstraints="NO" id="5rl-6u-aTo">
+                                <rect key="frame" x="30" y="658" width="342" height="13"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:23" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qom-uW-1yH">
+                                        <rect key="frame" x="0.0" y="0.0" width="27.5" height="13"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" name="singerTitleColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="3:36" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oyz-cW-fX1">
+                                        <rect key="frame" x="260.5" y="0.0" width="81.5" height="13"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" name="singerTitleColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="fhW-ag-U1f"/>
+                                    <constraint firstAttribute="width" constant="342" id="wZp-Iq-Bmn"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Play" translatesAutoresizingMaskIntoConstraints="NO" id="8Gp-AD-IZf">
+                                <rect key="frame" x="20" y="686" width="352" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="344" id="1W5-DW-cJ1"/>
+                                    <constraint firstAttribute="height" constant="78" id="dck-rx-Ql8" userLabel="height = 85"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="CastShare" translatesAutoresizingMaskIntoConstraints="NO" id="YWd-bz-AWr">
+                                <rect key="frame" x="28" y="779" width="337" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="2iW-a1-Pg1"/>
+                                    <constraint firstAttribute="width" constant="344" id="X83-VZ-4Gz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tp3-a3-j00"/>
+                        <color key="backgroundColor" name="playBackground"/>
+                        <constraints>
+                            <constraint firstItem="LWJ-EG-W1R" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="26" id="3mh-Hn-HRM"/>
+                            <constraint firstItem="xeW-I0-z0d" firstAttribute="top" secondItem="sSl-Ls-wLa" secondAttribute="bottom" constant="25" id="7yR-rq-50u"/>
+                            <constraint firstItem="q5D-hc-Z8u" firstAttribute="top" secondItem="tp3-a3-j00" secondAttribute="top" constant="44" id="Fgz-hT-I90"/>
+                            <constraint firstItem="LWJ-EG-W1R" firstAttribute="top" secondItem="5si-mV-clF" secondAttribute="bottom" constant="2" id="L7w-sw-nqm"/>
+                            <constraint firstItem="tp3-a3-j00" firstAttribute="trailing" secondItem="xeW-I0-z0d" secondAttribute="trailing" constant="26" id="MMZ-CR-Vdn"/>
+                            <constraint firstItem="YWd-bz-AWr" firstAttribute="top" secondItem="8Gp-AD-IZf" secondAttribute="bottom" constant="15" id="NlL-m9-gwi" userLabel="CastShare.top = Play.bottom + 9"/>
+                            <constraint firstItem="5rl-6u-aTo" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="30" id="Qr3-7i-JT5"/>
+                            <constraint firstItem="8Gp-AD-IZf" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="28" id="VA0-vz-GFi" userLabel="Play.leading = Safe Area.leading + 30"/>
+                            <constraint firstItem="tp3-a3-j00" firstAttribute="trailing" secondItem="gYY-I8-Pet" secondAttribute="trailing" constant="26" id="a2U-eQ-A2G"/>
+                            <constraint firstItem="O7o-yX-6xv" firstAttribute="top" secondItem="LWJ-EG-W1R" secondAttribute="bottom" constant="20" id="cwB-aW-Vkg"/>
+                            <constraint firstItem="5si-mV-clF" firstAttribute="top" secondItem="sSl-Ls-wLa" secondAttribute="bottom" constant="8" id="cyp-ei-iN3"/>
+                            <constraint firstItem="O7o-yX-6xv" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="30" id="dE6-Z0-xIG"/>
+                            <constraint firstItem="gYY-I8-Pet" firstAttribute="top" secondItem="tp3-a3-j00" secondAttribute="top" constant="44" id="ijI-Yt-24p"/>
+                            <constraint firstItem="YWd-bz-AWr" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="28" id="jSv-1A-49S" userLabel="CastShare.leading = Safe Area.leading + 30"/>
+                            <constraint firstItem="sSl-Ls-wLa" firstAttribute="top" secondItem="tp3-a3-j00" secondAttribute="top" constant="110" id="q3V-49-Oge"/>
+                            <constraint firstItem="5si-mV-clF" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="26" id="sQ2-ta-HmS"/>
+                            <constraint firstItem="8Gp-AD-IZf" firstAttribute="top" secondItem="5rl-6u-aTo" secondAttribute="bottom" constant="15" id="v1Q-lx-cvH" userLabel="Play.top = Stack View.bottom + 14"/>
+                            <constraint firstItem="sSl-Ls-wLa" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="26" id="vjz-a0-3FI"/>
+                            <constraint firstItem="5rl-6u-aTo" firstAttribute="top" secondItem="O7o-yX-6xv" secondAttribute="bottom" constant="4" id="wKw-4P-G0s"/>
+                            <constraint firstItem="q5D-hc-Z8u" firstAttribute="leading" secondItem="tp3-a3-j00" secondAttribute="leading" constant="22" id="zXU-d1-nOH"/>
+                            <constraint firstItem="tp3-a3-j00" firstAttribute="trailing" secondItem="sSl-Ls-wLa" secondAttribute="trailing" constant="26" id="zYK-ot-XWf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" name="b"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" name="playBackground"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dCT-cB-ZIb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="82.366071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Arrow" width="20" height="20"/>
+        <image name="CastShare" width="344" height="26"/>
+        <image name="Play" width="352" height="84"/>
+        <image name="Properties" width="10" height="24"/>
+        <image name="Timer" width="340" height="10"/>
+        <image name="adel" width="213.5" height="213.5"/>
+        <image name="iconHeart" width="28" height="28"/>
+        <namedColor name="b">
+            <color red="0.69803921568627447" green="0.85098039215686272" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="iconColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="playBackground">
+            <color red="0.0" green="0.25490196078431371" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="singerTitleColor">
+            <color red="0.72156862745098038" green="0.71764705882352942" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
