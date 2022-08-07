@@ -2,7 +2,7 @@
 
 ## 1-Splash Screen
 
-<img src="https://github.com/gulzade/SpotifyUI/blob/main/SpotifySplash.png width="250"/>
+<img src="https://github.com/gulzade/SpotifyUI/blob/main/SpotifySplash.png" width="250"/>
 
 
 ## 2-Spotify Play Screen
